@@ -1,2 +1,2 @@
-# Confident-Cooking
-:fork_and_knife: Share your best recipes with the world.
+# Musicians-Square
+:musical_note: A forum where musicians can come together and discuss.
