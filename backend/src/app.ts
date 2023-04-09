@@ -1,9 +1,10 @@
 import express from 'express';
+import forumPostsRoutes from './routes/forum-posts';
 
 const app = express();
 
-app.get('/', (req, res) => {
-	res.send('Hello from backend');
-});
+app.use(express.json());
+
+app.use('/posts', forumPostsRoutes);
 
 export default app;
