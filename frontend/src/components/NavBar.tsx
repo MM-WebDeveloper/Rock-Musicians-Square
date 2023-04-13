@@ -7,7 +7,7 @@ const NavBar = () => {
 	return (
 		<nav className={styles.navbar}>
 			<Link className={styles.logo} href='/'>
-				<Image src={logo} alt='musicians square logo' width={50} height={60} />
+				<Image src={logo} alt='musicians square logo' width={30} height={40} />
 				<span>M</span>usicians<span>S</span>quare
 			</Link>
 			<ul>
