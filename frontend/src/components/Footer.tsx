@@ -4,7 +4,7 @@ import Link from 'next/link';
 const Footer = () => {
 	return (
 		<footer className={styles.footer}>
-			<p>&copy; {new Date().getFullYear()} Musicians Square</p>
+			<p>&copy; {new Date().getFullYear()} Rock Musicians Square</p>
 			<ul>
 				<li>
 					<Link href='/privacy'>Privacy</Link>

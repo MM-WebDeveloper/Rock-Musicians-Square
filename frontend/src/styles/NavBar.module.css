@@ -6,6 +6,7 @@
 	align-items: center;
 	width: 100%;
 	border-bottom: 5px solid #f30200;
+	position: fixed;
 }
 
 .navbar img {

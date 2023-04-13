@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>Musicians Square | Welcome</title>
+				<title>RMS | Welcome</title>
 				<meta
 					name='description'
 					content='A forum for musicians around the world'
