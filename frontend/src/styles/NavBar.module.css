@@ -3,21 +3,24 @@
 	justify-content: space-between;
 	padding: 10px;
 	background-color: black;
+	align-items: center;
+	width: 100%;
 }
 
 .navbar img {
 	margin-bottom: 5px;
+	margin-right: 5px;
 }
 
 .navbar ul {
+	height: 65px;
 	display: flex;
-	align-items: center;
 	list-style: none;
+	align-items: center;
 }
 
 .navbar li {
 	margin-left: 10px;
-	margin-top: 20px;
 }
 
 .navbar a {
