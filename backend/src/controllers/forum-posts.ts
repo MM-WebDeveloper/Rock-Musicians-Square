@@ -3,7 +3,7 @@ import ForumPostModel from '../models/forum-post';
 
 export const getForumPosts: RequestHandler = async (req, res) => {
 	try {
-		const allForumPosts = await ForumPostModel.find().exec();
+		const allForumPosts = await ForumPostModel.find().sort({ _id: -1 }).exec();
 		res.status(200).json(allForumPosts);
 	} catch (error) {
 		res.status(500).json({ error });
