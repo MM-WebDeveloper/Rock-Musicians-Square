@@ -4,6 +4,7 @@ import * as ForumPostApi from '@/network/api/forum-posts';
 export default function CreatePostPage() {
 	const [input, setInput] = useState({
 		slug: '',
+		category: '',
 		title: '',
 		body: '',
 	});

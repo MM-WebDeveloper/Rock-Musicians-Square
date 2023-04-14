@@ -3,6 +3,7 @@ import api from '@/network/axiosInstance';
 
 interface CreateForumPost {
 	slug: string;
+	category: string;
 	title: string;
 	body: string;
 }
