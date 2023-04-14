@@ -1,12 +1,16 @@
 .navbar {
-	display: flex;
-	justify-content: space-between;
 	padding: 5px 5px;
 	background-color: black;
-	align-items: center;
 	width: 100%;
 	border-bottom: 5px solid #f30200;
 	position: fixed;
+}
+
+.navbar_container {
+	display: flex;
+	width: 90%;
+	justify-content: space-between;
+	margin: auto;
 }
 
 .navbar img {
@@ -29,7 +33,7 @@
 }
 
 .navbar li a {
-	color: rgb(166, 166, 166);
+	color: rgb(192, 192, 192);
 	transition: color 0.2s ease-in-out;
 }
 

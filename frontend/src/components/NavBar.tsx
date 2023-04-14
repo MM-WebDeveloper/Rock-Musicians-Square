@@ -6,26 +6,28 @@ import Link from 'next/link';
 const NavBar = () => {
 	return (
 		<nav className={styles.navbar}>
-			<Link className={styles.logo} href='/'>
-				<Image
-					src={logo}
-					alt='rock musicians square logo'
-					width={30}
-					height={40}
-				/>
-				<span>R</span>ock<span>M</span>usicians<span>S</span>quare
-			</Link>
-			<ul>
-				<li>
-					<Link href='/'>HOME</Link>
-				</li>
-				<li>
-					<Link href='/about'>ABOUT</Link>
-				</li>
-				<li>
-					<Link href='/privacy'>PRIVACY</Link>
-				</li>
-			</ul>
+			<div className={styles.navbar_container}>
+				<Link className={styles.logo} href='/'>
+					<Image
+						src={logo}
+						alt='rock musicians square logo'
+						width={41}
+						height={40}
+					/>
+					<span>R</span>ock<span>M</span>usicians<span>S</span>quare
+				</Link>
+				<ul>
+					<li>
+						<Link href='/'>HOME</Link>
+					</li>
+					<li>
+						<Link href='/about'>ABOUT</Link>
+					</li>
+					<li>
+						<Link href='/privacy'>PRIVACY</Link>
+					</li>
+				</ul>
+			</div>
 		</nav>
 	);
 };
