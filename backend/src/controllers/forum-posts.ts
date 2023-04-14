@@ -12,6 +12,7 @@ export const getForumPosts: RequestHandler = async (req, res) => {
 
 interface ForumPostBody {
 	slug: string;
+	category: string;
 	title: string;
 	body: string;
 }
@@ -22,11 +23,12 @@ export const createForumPost: RequestHandler<
 	ForumPostBody,
 	unknown
 > = async (req, res) => {
-	const { slug, title, body } = req.body;
+	const { slug, category, title, body } = req.body;
 
 	try {
 		const newForumPost = await ForumPostModel.create({
 			slug,
+			category,
 			title,
 			body,
 		});
