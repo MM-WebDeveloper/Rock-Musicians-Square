@@ -1,0 +1,24 @@
+.hamburger_menu_screen {
+	background: black;
+	height: calc(100vh - (6vh + 52px));
+	border-bottom: 5px solid red;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.hamburger_menu_screen_container {
+	width: 95%;
+	margin: auto;
+}
+
+.hamburger_menu_screen_container ul {
+	font-size: 20px;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.hamburger_menu_screen_link {
+	width: 100%;
+	margin-top: 10px;
+}

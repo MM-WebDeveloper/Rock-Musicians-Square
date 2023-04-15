@@ -1,0 +1,10 @@
+.authentication_links_register_btn {
+	display: flex;
+	align-items: center;
+	margin-right: 5px;
+}
+
+.authentication_links_login_btn {
+	display: flex;
+	align-items: center;
+}

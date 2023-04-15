@@ -1,0 +1,45 @@
+.mobile_navbar {
+	background-color: black;
+	width: 100%;
+	border-bottom: 5px solid #f30200;
+	position: fixed;
+	height: 75px;
+}
+
+.mobile_navbar_container {
+	width: 95%;
+	justify-content: space-between;
+	margin: auto;
+	display: flex;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 2px;
+	color: rgb(192, 192, 192);
+}
+
+.mobile_navbar ul {
+	list-style: none;
+}
+
+.mobile_navbar li a {
+	color: rgb(192, 192, 192);
+}
+
+.mobile_navbar li a:hover {
+	color: white;
+}
+
+.mobile_navbar_links {
+	display: flex;
+	justify-content: space-between;
+	font-size: 11px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 95%;
+	margin: auto;
+}
+
+.mobile_navbar_links ul {
+	display: flex;
+	justify-content: space-between;
+}

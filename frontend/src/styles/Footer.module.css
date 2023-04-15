@@ -7,6 +7,8 @@
 	display: flex;
 	padding: 20px;
 	justify-content: center;
+	font-size: 0.7rem;
+	height: 6vh;
 }
 
 .footer ul {
