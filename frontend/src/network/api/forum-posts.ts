@@ -1,6 +1,11 @@
 import { ForumPost } from '@/models/forum-post';
 import api from '@/network/axiosInstance';
 
+export async function getForumPosts() {
+	const response = await api.get<ForumPost[]>('/posts');
+	return response.data;
+}
+
 interface CreateForumPost {
 	slug: string;
 	category: string;
