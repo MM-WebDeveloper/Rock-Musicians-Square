@@ -1,6 +1,5 @@
 .index {
-	width: 100vw;
-	height: 100vh;
-	margin: auto;
+	background: #a0e5ff;
 	overflow: hidden;
+	flex: 1;
 }

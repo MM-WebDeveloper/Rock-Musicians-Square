@@ -1,9 +1,0 @@
-.hamburger_menu_link {
-	width: 100%;
-}
-
-.hamburger_menu_link a {
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-}
