@@ -1,11 +1,9 @@
-import styles from '@/styles/Footer.module.css';
+import styles from '@/styles/components/Footer.module.scss';
 
 const Footer = () => {
 	return (
 		<footer className={styles.footer}>
-			<p>
-				MM-WebDeveloper &copy; {new Date().getFullYear()} Rock Musicians Square
-			</p>
+			MM-WebDeveloper &copy; {new Date().getFullYear()} Rock Musicians Square
 		</footer>
 	);
 };
